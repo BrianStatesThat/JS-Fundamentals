@@ -4,7 +4,8 @@ const languages = [
   "JavaScript is amazing"
 ];
 
-const output = languages.join('\n');
+const outputString = languages.join('\n');
 
-// Print the single multi-line string using one console.log() call.
-console.log(output);
+for (const line of languages) {
+  console.log(line);
+}
